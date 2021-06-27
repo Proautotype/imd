@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/indexr.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="backdrop" class="backdrop"></div>    
+    <div class="container">        
+        <div class="addForm" id="addForm">
+            <div class="header">
+                <h2 style="width: 100; text-align: center; color: white;">ITEM MANIPULATION</h2>
+                <p class="close-form" id="close-form" >X</p>
+            </div>      
+            <div class="addForm_body">
+                <div id="form-group" class="form-group">
+                    <div class="fg_left">1</div>
+                    <div class="fg_right">
+                        <input type="text" name="" id="input_item_name" placeholder="Enter item....">
+                    </div>
+                </div>
+                <div id="form-group" class="form-group">
+                    <div class="fg_left">2</div>
+                    <div class="fg_right">
+                        <input type="text" name="" id="input_item_qty" placeholder="Enter quantity....">
+                    </div>
+                </div>
+                <div id="form-group" class="form-group">
+                    <div class="fg_left">3</div>
+                    <div class="fg_right">
+                        <input type="text" name="" id="input_item_cate" placeholder="Enter category....">
+                    </div>
+                </div>
+                <div id="form-group" class="form-group">
+                    <div class="fg_left">4</div>
+                    <div class="fg_right">
+                        <input type="text" name="" id="input_item_desc" placeholder="Enter description....">
+                    </div>
+                </div>
+
+                <div id="form-group" class="form-group" style="background-color: transparent;">
+                    <div id="btn_add" class="btn" ><p><i class="fas fa-plus-circle"></i></p></div>
+                    <div id="btn_update" class="btn" ><p><i class="fas fa-external-link-square-alt"></i></p></div>
+                    <div id="btn_clear" class="btn"><p><i class="fas fa-broom"></i></p></div>
+                </div>
+            </div>  
+            <div class="footer">
+                
+            </div> 
+        </div>
+        <div class="left">
+            <div id="trig_add" class="trig_add"><i class="fas fa-plus-square"></i></div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <div class="right">
+            <div class="summary">
+                <div class="sum1">
+                    <div style="width: 55%; height: 100%;">
+                        <p>STOCKED ITEMS</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 4rem;" id="lbl_num_items">
+                            50
+                        </p>
+                    </div>
+                </div>
+                <div class="sum2">
+                    <div style="width: 55%; height: 100%;">
+                        <p>STOCKED ITEMS</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 4rem;" id="lbl_cate_num">
+                            50
+                        </p>
+                    </div>
+                </div>
+                <div class="sum3">
+                    <div style="width: 55%; height: 100%;">
+                        <p>STOCKED ITEMS</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 4rem;" id="lbl_num_stocked">
+                            50
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>ITEM NAME</th>
+                        <th>QUANTITY</th>
+                        <th>CATEGORY</th>
+                        <th>DESCRIPTION</th>
+                        <th colspan="2">ACTION</th>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</html>
